@@ -162,7 +162,7 @@ public class Student {
         for (int i = 0; i < studentsList.size(); i++) {
             if(ID == studentsList.get(i).ID){
                 studentsList.remove(i);
-                System.out.println("Đã xóa thông tin sinh viên ID : "+studentsList.get(i).ID +" trong danh sách !");
+                System.out.println("Đã xóa thông tin sinh viên ID : "+ID +" trong danh sách !");
                 b= false;
                 break;
             }
